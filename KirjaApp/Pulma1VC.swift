@@ -26,10 +26,14 @@ import AVFoundation
         @IBOutlet weak var letterITarget: UIView!
         @IBOutlet weak var letterL1Target: UIView!
         @IBOutlet weak var letterL2Target: UIView!
-        @IBOutlet weak var letterA1Target: UIView!
+        @IBOutlet weak var letterATarget: UIView!
         @IBOutlet weak var letterL3Target: UIView!
         @IBOutlet weak var letterL4Target: UIView!
         @IBOutlet weak var letterA2Target: UIView!
+        
+        
+        
+        
         
         /* L N S L I E L L L */
         @IBOutlet weak var letterL: dragImg!
@@ -46,6 +50,17 @@ import AVFoundation
         
         override func viewDidLoad() {
             super.viewDidLoad()
+            
+            letterL.dropTargets = [letterLTarget, letterL1Target, letterL2Target, letterL3Target, letterL4Target]
+            letterE.dropTargets = [letterETarget]
+            letterN.dropTargets = [letterNTarget]
+            
+            letterS.dropTargets = [letterSTarget]
+            letterI.dropTargets = [letterL1Target]
+            letterL2.dropTargets = [letterLTarget, letterL1Target, letterL2Target, letterL3Target, letterL4Target]
+            letterL3.dropTargets = [letterLTarget, letterL1Target, letterL2Target, letterL3Target, letterL4Target]
+            letterL4.dropTargets = [letterLTarget, letterL1Target, letterL2Target, letterL3Target, letterL4Target]
+            letterL5.dropTargets = [letterLTarget, letterL1Target, letterL2Target, letterL3Target, letterL4Target]
             
  
            let notificationName = Notification.Name("onTarget")

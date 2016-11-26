@@ -286,153 +286,6 @@ Pidä hauskaa Myttymäessä!</string>
                                     <action selector="takaisinPressed:" destination="WMk-X9-k9I" eventType="touchUpInside" id="bCg-n0-1wP"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_O" translatesAutoresizingMaskIntoConstraints="NO" id="KzB-gi-PzD">
-                                <rect key="frame" x="182" y="158" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="Uc7-gu-2sE"/>
-                                    <constraint firstAttribute="width" constant="70" id="ulF-3h-tSx"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="986-II-v1X">
-                                <rect key="frame" x="273" y="158" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="cjT-Gq-jtc"/>
-                                    <constraint firstAttribute="width" constant="70" id="f0D-9K-Tv5"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="zi3-r8-Bpl">
-                                <rect key="frame" x="366" y="158" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="3EK-Y9-Dae"/>
-                                    <constraint firstAttribute="height" constant="70" id="OZ4-nr-9WQ"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="ZhN-ul-Epg">
-                                <rect key="frame" x="459" y="158" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="JKM-WC-yB9"/>
-                                    <constraint firstAttribute="height" constant="70" id="vT1-Av-e6p"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="sUE-aw-4cT">
-                                <rect key="frame" x="74" y="261" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="F21-G7-DW7"/>
-                                    <constraint firstAttribute="width" constant="70" id="dFI-wU-dbs"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="M4h-QN-ZhP">
-                                <rect key="frame" x="152" y="261" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="jNb-NX-7xC"/>
-                                    <constraint firstAttribute="width" constant="70" id="thS-gu-ZPy"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="vDD-Mr-OFs">
-                                <rect key="frame" x="308" y="261" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="GPq-4I-yJU"/>
-                                    <constraint firstAttribute="width" constant="70" id="PcL-kg-A52"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_A" translatesAutoresizingMaskIntoConstraints="NO" id="dYI-yS-Rc3">
-                                <rect key="frame" x="386" y="261" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="CLZ-sH-h6l"/>
-                                    <constraint firstAttribute="height" constant="70" id="Ird-Dz-YwW"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_A" translatesAutoresizingMaskIntoConstraints="NO" id="MG6-pA-NFg">
-                                <rect key="frame" x="620" y="261" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="4Yo-EP-NVA"/>
-                                    <constraint firstAttribute="width" constant="70" id="9dc-Q3-bgq"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="bNI-Rl-inU" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
-                                <rect key="frame" x="74" y="668" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="EeE-If-MML"/>
-                                    <constraint firstAttribute="width" constant="70" id="lok-2j-Xjk"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="5GT-c3-CnD" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
-                                <rect key="frame" x="308" y="802" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="Hae-Zx-hZT"/>
-                                    <constraint firstAttribute="width" constant="70" id="wDa-rT-Lil"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_N" translatesAutoresizingMaskIntoConstraints="NO" id="foC-FL-mwP" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
-                                <rect key="frame" x="191" y="668" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="LPb-2b-aoB"/>
-                                    <constraint firstAttribute="height" constant="70" id="l9K-vD-DxT"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_S" translatesAutoresizingMaskIntoConstraints="NO" id="x76-h0-FqD" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
-                                <rect key="frame" x="308" y="668" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="jga-vw-uir"/>
-                                    <constraint firstAttribute="height" constant="70" id="vod-gg-kiB"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_I" translatesAutoresizingMaskIntoConstraints="NO" id="hdX-gv-MMA" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
-                                <rect key="frame" x="535" y="668" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="2dq-xw-OLU"/>
-                                    <constraint firstAttribute="width" constant="70" id="SMX-de-cRO"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_E" translatesAutoresizingMaskIntoConstraints="NO" id="XUF-ni-gEu" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
-                                <rect key="frame" x="74" y="802" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="IBS-Fw-EfA"/>
-                                    <constraint firstAttribute="width" constant="70" id="IS9-Sp-rJw"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="t96-Ke-8L3" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
-                                <rect key="frame" x="191" y="802" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="Q2c-ca-avP"/>
-                                    <constraint firstAttribute="height" constant="70" id="Znm-jz-zB5"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="Djw-Rr-zGt">
-                                <rect key="frame" x="542" y="261" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="Sqj-Vd-XkP"/>
-                                    <constraint firstAttribute="width" constant="70" id="drF-02-bZk"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="to4-0C-qhy">
-                                <rect key="frame" x="464" y="261" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="AYL-yQ-2Bs"/>
-                                    <constraint firstAttribute="height" constant="70" id="BgY-iU-fyF"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="xwP-9Y-0uf">
-                                <rect key="frame" x="230" y="261" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="5D7-pf-otY"/>
-                                    <constraint firstAttribute="height" constant="70" id="Xev-qB-4VA"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="uMS-oc-jQa" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
-                                <rect key="frame" x="423" y="668" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="4LT-Se-NoP"/>
-                                    <constraint firstAttribute="height" constant="70" id="XUs-CZ-K2h"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="CmB-VO-qtP" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
-                                <rect key="frame" x="423" y="802" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="UTY-5a-cw2"/>
-                                    <constraint firstAttribute="height" constant="70" id="n9p-5y-NXw"/>
-                                </constraints>
-                            </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8g-PX-7XY">
                                 <rect key="frame" x="225" y="449" width="319" height="127"/>
                                 <color key="backgroundColor" red="1" green="0.68773057500000001" blue="0.24906547339999999" alpha="0.716796875" colorSpace="calibratedRGB"/>
@@ -449,86 +302,272 @@ Pidä hauskaa Myttymäessä!</string>
                                     <segue destination="Qf7-d6-eFG" kind="show" id="HX7-Qi-br8"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="r6N-ng-V0f" userLabel="Olen Stack">
+                                <rect key="frame" x="154" y="137" width="460" height="70"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9t-5N-fsE" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_O" translatesAutoresizingMaskIntoConstraints="NO" id="JA5-B9-ZUP">
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="9AL-Ho-XIk"/>
+                                            <constraint firstAttribute="bottom" secondItem="JA5-B9-ZUP" secondAttribute="bottom" id="CLE-D4-2Gy"/>
+                                            <constraint firstItem="JA5-B9-ZUP" firstAttribute="top" secondItem="g9t-5N-fsE" secondAttribute="top" id="ZIW-TU-uGe"/>
+                                            <constraint firstAttribute="trailing" secondItem="JA5-B9-ZUP" secondAttribute="trailing" id="ngl-TD-gH8"/>
+                                            <constraint firstItem="JA5-B9-ZUP" firstAttribute="leading" secondItem="g9t-5N-fsE" secondAttribute="leading" id="oqV-yF-PdJ"/>
+                                            <constraint firstAttribute="height" constant="70" id="xR7-ew-Xc7"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yy-oe-n9m">
+                                        <rect key="frame" x="130" y="0.0" width="70" height="70"/>
+                                        <color key="backgroundColor" red="0.83452266454696655" green="0.80554616451263428" blue="0.69174474477767944" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="Nvn-TA-Upg"/>
+                                            <constraint firstAttribute="height" constant="70" id="d2l-Js-gqD"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Weu-fb-Exs">
+                                        <rect key="frame" x="260" y="0.0" width="70" height="70"/>
+                                        <color key="backgroundColor" red="0.83452266450000001" green="0.80554616450000005" blue="0.69174474480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="mru-ca-iiB"/>
+                                            <constraint firstAttribute="width" constant="70" id="wLj-pq-Yc6"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AaH-wg-7Br">
+                                        <rect key="frame" x="390" y="0.0" width="70" height="70"/>
+                                        <color key="backgroundColor" red="0.83452266450000001" green="0.80554616450000005" blue="0.69174474480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="Xbc-W1-fgj"/>
+                                            <constraint firstAttribute="height" constant="70" id="gxA-2f-DLj"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="460" id="Aft-cY-2EW"/>
+                                    <constraint firstAttribute="height" constant="70" id="aWJ-AR-HmN"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ja2-kK-M2m" userLabel="sillallaStack">
+                                <rect key="frame" x="34" y="252" width="700" height="70"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yjy-wq-q15">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <color key="backgroundColor" red="0.83452266450000001" green="0.80554616450000005" blue="0.69174474480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="FjU-mG-QVO"/>
+                                            <constraint firstAttribute="height" constant="70" id="apG-SI-ORu"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eaU-rn-e6h">
+                                        <rect key="frame" x="90" y="0.0" width="70" height="70"/>
+                                        <color key="backgroundColor" red="0.83452266450000001" green="0.80554616450000005" blue="0.69174474480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="Xvc-rV-sYR"/>
+                                            <constraint firstAttribute="height" constant="70" id="d45-Fi-vFL"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k8v-Gp-ymZ">
+                                        <rect key="frame" x="180" y="0.0" width="70" height="70"/>
+                                        <color key="backgroundColor" red="0.83452266450000001" green="0.80554616450000005" blue="0.69174474480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.83452266450000001" green="0.80554616450000005" blue="0.69174474480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="eJ7-HY-jTZ"/>
+                                            <constraint firstAttribute="height" constant="70" id="enO-mk-W5b"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQQ-b2-7Mi">
+                                        <rect key="frame" x="270" y="0.0" width="70" height="70"/>
+                                        <color key="backgroundColor" red="0.83452266450000001" green="0.80554616450000005" blue="0.69174474480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="4RC-YJ-DR2"/>
+                                            <constraint firstAttribute="width" constant="70" id="Fal-5I-R6i"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Jw-FB-bI1" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="360" y="0.0" width="70" height="70"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_A" translatesAutoresizingMaskIntoConstraints="NO" id="FM3-KR-Mid">
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="FM3-KR-Mid" secondAttribute="trailing" id="BYW-Gg-zyQ"/>
+                                            <constraint firstItem="FM3-KR-Mid" firstAttribute="leading" secondItem="5Jw-FB-bI1" secondAttribute="leading" id="DXf-g6-YRH"/>
+                                            <constraint firstItem="FM3-KR-Mid" firstAttribute="top" secondItem="5Jw-FB-bI1" secondAttribute="top" id="Nil-zc-9wY"/>
+                                            <constraint firstAttribute="width" constant="70" id="lko-tR-2by"/>
+                                            <constraint firstAttribute="bottom" secondItem="FM3-KR-Mid" secondAttribute="bottom" id="qk3-aM-5Y6"/>
+                                            <constraint firstAttribute="height" constant="70" id="rmx-Ih-CTt"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkz-i4-3JK">
+                                        <rect key="frame" x="450" y="0.0" width="70" height="70"/>
+                                        <color key="backgroundColor" red="0.83452266450000001" green="0.80554616450000005" blue="0.69174474480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="9ng-dM-CuN"/>
+                                            <constraint firstAttribute="width" constant="70" id="lhp-Pw-C7B"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GP5-vY-qJP">
+                                        <rect key="frame" x="540" y="0.0" width="70" height="70"/>
+                                        <color key="backgroundColor" red="0.83452266450000001" green="0.80554616450000005" blue="0.69174474480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="mfZ-5f-YCT"/>
+                                            <constraint firstAttribute="height" constant="70" id="nSk-gy-94g"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wPc-es-IHV" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="630" y="0.0" width="70" height="70"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_A" translatesAutoresizingMaskIntoConstraints="NO" id="Va7-4C-vo4">
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Va7-4C-vo4" secondAttribute="trailing" id="5sZ-Bf-dKX"/>
+                                            <constraint firstAttribute="width" constant="70" id="Ch8-3v-1Uw"/>
+                                            <constraint firstAttribute="bottom" secondItem="Va7-4C-vo4" secondAttribute="bottom" id="IZf-p3-shY"/>
+                                            <constraint firstItem="Va7-4C-vo4" firstAttribute="leading" secondItem="wPc-es-IHV" secondAttribute="leading" id="aPg-NM-kUI"/>
+                                            <constraint firstAttribute="height" constant="70" id="atd-HZ-YwT"/>
+                                            <constraint firstItem="Va7-4C-vo4" firstAttribute="top" secondItem="wPc-es-IHV" secondAttribute="top" id="zF4-4L-rBC"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="7Cy-wH-S73"/>
+                                    <constraint firstAttribute="width" constant="700" id="crs-y8-bzb"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="HdU-UP-alf" userLabel="LNSLIStack">
+                                <rect key="frame" x="89" y="664" width="590" height="70"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="bNI-Rl-inU" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="EeE-If-MML"/>
+                                            <constraint firstAttribute="width" constant="70" id="lok-2j-Xjk"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_N" translatesAutoresizingMaskIntoConstraints="NO" id="foC-FL-mwP" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="130" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="LPb-2b-aoB"/>
+                                            <constraint firstAttribute="height" constant="70" id="l9K-vD-DxT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_S" translatesAutoresizingMaskIntoConstraints="NO" id="x76-h0-FqD" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="260" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="jga-vw-uir"/>
+                                            <constraint firstAttribute="height" constant="70" id="vod-gg-kiB"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="uMS-oc-jQa" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="390" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="4LT-Se-NoP"/>
+                                            <constraint firstAttribute="height" constant="70" id="XUs-CZ-K2h"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_I" translatesAutoresizingMaskIntoConstraints="NO" id="hdX-gv-MMA" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="520" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="2dq-xw-OLU"/>
+                                            <constraint firstAttribute="width" constant="70" id="SMX-de-cRO"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="2CE-tz-Rwa"/>
+                                    <constraint firstAttribute="width" constant="590" id="nMV-Yb-Jn1"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="jf4-0p-vGW">
+                                <rect key="frame" x="154" y="807" width="460" height="70"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_E" translatesAutoresizingMaskIntoConstraints="NO" id="XUF-ni-gEu" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="IBS-Fw-EfA"/>
+                                            <constraint firstAttribute="width" constant="70" id="IS9-Sp-rJw"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="t96-Ke-8L3" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="130" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="Q2c-ca-avP"/>
+                                            <constraint firstAttribute="height" constant="70" id="Znm-jz-zB5"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="5GT-c3-CnD" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="260" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="Hae-Zx-hZT"/>
+                                            <constraint firstAttribute="width" constant="70" id="wDa-rT-Lil"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="CmB-VO-qtP" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                        <rect key="frame" x="390" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="UTY-5a-cw2"/>
+                                            <constraint firstAttribute="height" constant="70" id="n9p-5y-NXw"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="460" id="dXA-ok-wIy"/>
+                                    <constraint firstAttribute="height" constant="70" id="hr8-31-YE2"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="x76-h0-FqD" firstAttribute="top" secondItem="vDD-Mr-OFs" secondAttribute="bottom" constant="337" id="1BD-E5-nWe"/>
-                            <constraint firstItem="bNI-Rl-inU" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leadingMargin" constant="54" id="5ba-jO-bJu"/>
-                            <constraint firstItem="dYI-yS-Rc3" firstAttribute="top" secondItem="zi3-r8-Bpl" secondAttribute="bottom" constant="33" id="8My-2j-w3S"/>
-                            <constraint firstItem="bNI-Rl-inU" firstAttribute="top" secondItem="sUE-aw-4cT" secondAttribute="bottom" constant="337" id="9JB-Kh-phG"/>
-                            <constraint firstItem="foC-FL-mwP" firstAttribute="leading" secondItem="bNI-Rl-inU" secondAttribute="trailing" constant="47" id="9Ts-1u-2PD"/>
-                            <constraint firstItem="foC-FL-mwP" firstAttribute="top" secondItem="xwP-9Y-0uf" secondAttribute="bottom" constant="337" id="Abk-7T-kpZ"/>
-                            <constraint firstItem="zi3-r8-Bpl" firstAttribute="leading" secondItem="986-II-v1X" secondAttribute="trailing" constant="23" id="Cg4-bT-eTk"/>
-                            <constraint firstItem="uMS-oc-jQa" firstAttribute="leading" secondItem="x76-h0-FqD" secondAttribute="trailing" constant="45" id="DTV-EI-JmS"/>
-                            <constraint firstItem="M4h-QN-ZhP" firstAttribute="leading" secondItem="sUE-aw-4cT" secondAttribute="trailing" constant="8" id="DX1-EM-gMZ"/>
-                            <constraint firstItem="hdX-gv-MMA" firstAttribute="leading" secondItem="uMS-oc-jQa" secondAttribute="trailing" constant="42" id="Dyz-by-ctX"/>
-                            <constraint firstItem="Djw-Rr-zGt" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="241" id="E95-Be-ZNL"/>
-                            <constraint firstItem="hdX-gv-MMA" firstAttribute="leading" secondItem="uMS-oc-jQa" secondAttribute="trailing" constant="42" id="FFK-hr-udS"/>
-                            <constraint firstItem="to4-0C-qhy" firstAttribute="leading" secondItem="dYI-yS-Rc3" secondAttribute="trailing" constant="8" id="G0H-vc-Q4s"/>
-                            <constraint firstItem="vDD-Mr-OFs" firstAttribute="top" secondItem="zi3-r8-Bpl" secondAttribute="bottom" constant="33" id="HVs-qQ-JsG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="MG6-pA-NFg" secondAttribute="trailing" constant="58" id="HxO-WH-loZ"/>
-                            <constraint firstItem="uMS-oc-jQa" firstAttribute="top" secondItem="to4-0C-qhy" secondAttribute="bottom" constant="337" id="JIZ-0i-5Ds"/>
-                            <constraint firstItem="zi3-r8-Bpl" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="138" id="Kii-A9-BzM"/>
-                            <constraint firstItem="5GT-c3-CnD" firstAttribute="top" secondItem="x76-h0-FqD" secondAttribute="bottom" constant="64" id="LDV-iH-Jy9"/>
+                            <constraint firstItem="jf4-0p-vGW" firstAttribute="centerX" secondItem="aLi-ze-Y5H" secondAttribute="centerX" id="FHk-nU-eDJ"/>
+                            <constraint firstItem="r6N-ng-V0f" firstAttribute="top" secondItem="UYo-hE-x6W" secondAttribute="bottom" constant="74" id="K5p-IT-kRK"/>
                             <constraint firstItem="E8g-PX-7XY" firstAttribute="centerY" secondItem="aLi-ze-Y5H" secondAttribute="centerY" id="LSq-33-OzA"/>
                             <constraint firstItem="UYo-hE-x6W" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" id="LlI-JE-Ktj"/>
-                            <constraint firstItem="x76-h0-FqD" firstAttribute="leading" secondItem="foC-FL-mwP" secondAttribute="trailing" constant="47" id="Ogo-8n-ghF"/>
-                            <constraint firstItem="CmB-VO-qtP" firstAttribute="leading" secondItem="5GT-c3-CnD" secondAttribute="trailing" constant="45" id="Pl9-1z-rrs"/>
+                            <constraint firstItem="3Kk-CP-2L7" firstAttribute="top" secondItem="jf4-0p-vGW" secondAttribute="bottom" constant="147" id="NFo-Bf-hdB"/>
                             <constraint firstItem="UYo-hE-x6W" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leading" constant="20" id="S39-QO-hbe"/>
-                            <constraint firstItem="Djw-Rr-zGt" firstAttribute="leading" secondItem="to4-0C-qhy" secondAttribute="trailing" constant="8" id="SXL-et-xs7"/>
-                            <constraint firstItem="ZhN-ul-Epg" firstAttribute="leading" secondItem="zi3-r8-Bpl" secondAttribute="trailing" constant="23" id="SkR-J4-Vk1"/>
-                            <constraint firstItem="986-II-v1X" firstAttribute="leading" secondItem="KzB-gi-PzD" secondAttribute="trailing" constant="21" id="Tii-Hj-9nR"/>
-                            <constraint firstItem="XUF-ni-gEu" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leadingMargin" constant="54" id="UR6-sK-I2U"/>
-                            <constraint firstItem="KzB-gi-PzD" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leadingMargin" constant="162" id="WZo-7w-aPY"/>
-                            <constraint firstItem="M4h-QN-ZhP" firstAttribute="top" secondItem="KzB-gi-PzD" secondAttribute="bottom" constant="33" id="XO1-dN-6VY"/>
-                            <constraint firstItem="sUE-aw-4cT" firstAttribute="top" secondItem="UYo-hE-x6W" secondAttribute="bottom" constant="198" id="YuE-GX-rYH"/>
-                            <constraint firstItem="XUF-ni-gEu" firstAttribute="top" secondItem="bNI-Rl-inU" secondAttribute="bottom" constant="64" id="a2y-53-Os9"/>
-                            <constraint firstItem="xwP-9Y-0uf" firstAttribute="leading" secondItem="M4h-QN-ZhP" secondAttribute="trailing" constant="8" id="aBj-6d-G12"/>
-                            <constraint firstItem="ZhN-ul-Epg" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="138" id="cNR-z1-JwH"/>
-                            <constraint firstItem="dYI-yS-Rc3" firstAttribute="leading" secondItem="vDD-Mr-OFs" secondAttribute="trailing" constant="8" id="fCG-MB-NND"/>
-                            <constraint firstItem="vDD-Mr-OFs" firstAttribute="leading" secondItem="xwP-9Y-0uf" secondAttribute="trailing" constant="8" id="heG-7W-rch"/>
-                            <constraint firstItem="hdX-gv-MMA" firstAttribute="top" secondItem="Djw-Rr-zGt" secondAttribute="bottom" constant="337" id="hm4-VP-rCH"/>
-                            <constraint firstItem="t96-Ke-8L3" firstAttribute="leading" secondItem="XUF-ni-gEu" secondAttribute="trailing" constant="47" id="iej-cQ-bPC"/>
-                            <constraint firstItem="MG6-pA-NFg" firstAttribute="leading" secondItem="Djw-Rr-zGt" secondAttribute="trailing" constant="8" id="ipK-P3-sbm"/>
-                            <constraint firstItem="xwP-9Y-0uf" firstAttribute="leading" secondItem="M4h-QN-ZhP" secondAttribute="trailing" constant="8" id="jAR-wy-eeF"/>
-                            <constraint firstItem="xwP-9Y-0uf" firstAttribute="top" secondItem="986-II-v1X" secondAttribute="bottom" constant="33" id="jg1-W4-Vdi"/>
+                            <constraint firstItem="r6N-ng-V0f" firstAttribute="centerX" secondItem="aLi-ze-Y5H" secondAttribute="centerX" id="VZ7-nU-gvg"/>
+                            <constraint firstItem="Ja2-kK-M2m" firstAttribute="top" secondItem="r6N-ng-V0f" secondAttribute="bottom" constant="45" id="YJC-D0-FEx"/>
+                            <constraint firstItem="HdU-UP-alf" firstAttribute="centerX" secondItem="aLi-ze-Y5H" secondAttribute="centerX" id="fbV-vh-XrY"/>
+                            <constraint firstItem="Ja2-kK-M2m" firstAttribute="centerX" secondItem="aLi-ze-Y5H" secondAttribute="centerX" id="igl-uL-VqN"/>
                             <constraint firstItem="eV4-m5-Hwj" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leading" id="ktv-mh-oJr"/>
                             <constraint firstAttribute="trailing" secondItem="eV4-m5-Hwj" secondAttribute="trailing" id="lXB-cO-uul"/>
                             <constraint firstItem="3Kk-CP-2L7" firstAttribute="top" secondItem="eV4-m5-Hwj" secondAttribute="bottom" id="mse-Cz-4pt"/>
-                            <constraint firstItem="to4-0C-qhy" firstAttribute="top" secondItem="ZhN-ul-Epg" secondAttribute="bottom" constant="33" id="nzc-cC-JO4"/>
-                            <constraint firstItem="CmB-VO-qtP" firstAttribute="top" secondItem="uMS-oc-jQa" secondAttribute="bottom" constant="64" id="o3k-em-dtF"/>
-                            <constraint firstItem="t96-Ke-8L3" firstAttribute="top" secondItem="foC-FL-mwP" secondAttribute="bottom" constant="64" id="oqv-Hh-Y3w"/>
-                            <constraint firstItem="sUE-aw-4cT" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leadingMargin" constant="54" id="qky-Yh-K3Y"/>
-                            <constraint firstItem="MG6-pA-NFg" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="241" id="tHh-Wz-d4O"/>
-                            <constraint firstItem="5GT-c3-CnD" firstAttribute="leading" secondItem="t96-Ke-8L3" secondAttribute="trailing" constant="47" id="tJz-DJ-H6c"/>
+                            <constraint firstItem="jf4-0p-vGW" firstAttribute="top" secondItem="HdU-UP-alf" secondAttribute="bottom" constant="73" id="tZp-eq-ZIq"/>
                             <constraint firstItem="E8g-PX-7XY" firstAttribute="centerX" secondItem="aLi-ze-Y5H" secondAttribute="centerX" id="toz-hL-SyD"/>
-                            <constraint firstItem="986-II-v1X" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="138" id="v6b-ia-e20"/>
-                            <constraint firstItem="KzB-gi-PzD" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="138" id="zqf-us-IjV"/>
                             <constraint firstItem="eV4-m5-Hwj" firstAttribute="top" secondItem="aLi-ze-Y5H" secondAttribute="top" id="ztu-u9-6No"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="letterA1Target" destination="dYI-yS-Rc3" id="AV7-2r-RKJ"/>
-                        <outlet property="letterA2Target" destination="MG6-pA-NFg" id="Fvj-xP-gA7"/>
+                        <outlet property="letterA2Target" destination="wPc-es-IHV" id="2X6-1X-GUx"/>
+                        <outlet property="letterATarget" destination="5Jw-FB-bI1" id="Vsi-gL-e8K"/>
                         <outlet property="letterE" destination="XUF-ni-gEu" id="jxS-4v-dUc"/>
-                        <outlet property="letterETarget" destination="zi3-r8-Bpl" id="5gV-ot-gSy"/>
+                        <outlet property="letterETarget" destination="Weu-fb-Exs" id="nhn-n1-Hke"/>
                         <outlet property="letterI" destination="hdX-gv-MMA" id="WxR-zh-ZCe"/>
-                        <outlet property="letterITarget" destination="M4h-QN-ZhP" id="9LW-43-6Vn"/>
+                        <outlet property="letterITarget" destination="eaU-rn-e6h" id="0vW-cF-cwe"/>
                         <outlet property="letterL" destination="uMS-oc-jQa" id="ICN-ex-bEl"/>
-                        <outlet property="letterL1Target" destination="xwP-9Y-0uf" id="X4t-HE-a7M"/>
+                        <outlet property="letterL1Target" destination="k8v-Gp-ymZ" id="HwN-1h-USu"/>
                         <outlet property="letterL2" destination="uMS-oc-jQa" id="5NY-4b-auQ"/>
-                        <outlet property="letterL2Target" destination="vDD-Mr-OFs" id="PZ0-nk-1XT"/>
+                        <outlet property="letterL2Target" destination="eQQ-b2-7Mi" id="cjb-E8-BLg"/>
                         <outlet property="letterL3" destination="t96-Ke-8L3" id="mZC-P1-z9O"/>
-                        <outlet property="letterL3Target" destination="to4-0C-qhy" id="iM1-mY-Qhu"/>
+                        <outlet property="letterL3Target" destination="gkz-i4-3JK" id="obX-eR-Yts"/>
                         <outlet property="letterL4" destination="5GT-c3-CnD" id="4GW-mq-I2M"/>
-                        <outlet property="letterL4Target" destination="Djw-Rr-zGt" id="Y7c-ib-JFl"/>
+                        <outlet property="letterL4Target" destination="GP5-vY-qJP" id="4yg-EO-KPW"/>
                         <outlet property="letterL5" destination="CmB-VO-qtP" id="7Hy-Gy-SYd"/>
-                        <outlet property="letterLTarget" destination="986-II-v1X" id="Xku-R2-tgD"/>
+                        <outlet property="letterLTarget" destination="5yy-oe-n9m" id="1vv-sN-SZG"/>
                         <outlet property="letterN" destination="foC-FL-mwP" id="SuG-kv-ZkN"/>
-                        <outlet property="letterNTarget" destination="ZhN-ul-Epg" id="YAD-MH-5U6"/>
-                        <outlet property="letterOTarget" destination="KzB-gi-PzD" id="1fo-uF-cXC"/>
+                        <outlet property="letterNTarget" destination="AaH-wg-7Br" id="wfa-rH-MVK"/>
+                        <outlet property="letterOTarget" destination="g9t-5N-fsE" id="OfR-YD-ba6"/>
                         <outlet property="letterS" destination="x76-h0-FqD" id="S1K-04-zB5"/>
-                        <outlet property="letterSTarget" destination="sUE-aw-4cT" id="CH6-Z7-HuN"/>
+                        <outlet property="letterSTarget" destination="yjy-wq-q15" id="lAn-hM-ujE"/>
                         <outlet property="puzzle2BtnOutlet" destination="E8g-PX-7XY" id="uVe-r8-mPN"/>
                     </connections>
                 </viewController>
@@ -553,11 +592,10 @@ Pidä hauskaa Myttymäessä!</string>
         <image name="pulma1_N" width="67" height="67"/>
         <image name="pulma1_O" width="67" height="67"/>
         <image name="pulma1_S" width="67" height="67"/>
-        <image name="pulma1_kirjaimenpaikka" width="67" height="67"/>
         <image name="pulma2Btn" width="319" height="323"/>
         <image name="pulma3Btn" width="319" height="323"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IUr-sA-lkF"/>
+        <segue reference="HX7-Qi-br8"/>
     </inferredMetricsTieBreakers>
 </document>
