@@ -1,25 +1,563 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KirjaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alkunäyttökuva" translatesAutoresizingMaskIntoConstraints="NO" id="HSg-vQ-rGc">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zc-bR-UpB">
+                                <rect key="frame" x="277" y="582" width="214" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="214" id="nKk-FD-tFb"/>
+                                    <constraint firstAttribute="height" constant="98" id="qqv-m4-9Kj"/>
+                                </constraints>
+                                <state key="normal" image="ohjeetBtn">
+                                    <color key="titleColor" red="1" green="0.98514202399999995" blue="0.31661369160000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ohjeetBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bXw-RI-9lr"/>
+                                    <segue destination="7sw-Jb-2pT" kind="show" id="e1n-JK-To8"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyttyLogo" translatesAutoresizingMaskIntoConstraints="NO" id="KFT-BA-MGc">
+                                <rect key="frame" x="180" y="49" width="408" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="215" id="9Y3-u2-yNV"/>
+                                    <constraint firstAttribute="width" constant="408" id="b9P-LY-irE"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jW5-9i-q55">
+                                <rect key="frame" x="277" y="464" width="214" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="214" id="1Vb-N2-c2v"/>
+                                    <constraint firstAttribute="height" constant="96" id="4v5-q0-y4E"/>
+                                </constraints>
+                                <state key="normal" image="aloitaBtn">
+                                    <color key="titleColor" red="1" green="0.98514202399999995" blue="0.31661369160000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="aloitaBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rbK-2F-i9N"/>
+                                    <segue destination="Qf7-d6-eFG" kind="show" id="IUr-sA-lkF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jW5-9i-q55" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DYf-W5-Rbj"/>
+                            <constraint firstItem="0zc-bR-UpB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ISp-8J-V9Y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HSg-vQ-rGc" secondAttribute="bottom" id="N9r-XB-g08"/>
+                            <constraint firstItem="0zc-bR-UpB" firstAttribute="top" secondItem="jW5-9i-q55" secondAttribute="bottom" constant="22" id="TTs-af-0jz"/>
+                            <constraint firstItem="KFT-BA-MGc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="TfU-ur-oMf"/>
+                            <constraint firstAttribute="trailing" secondItem="HSg-vQ-rGc" secondAttribute="trailing" id="iMM-Us-5k1"/>
+                            <constraint firstItem="HSg-vQ-rGc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jnj-Qf-dKb"/>
+                            <constraint firstItem="KFT-BA-MGc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mKd-t9-Vyt"/>
+                            <constraint firstItem="jW5-9i-q55" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oht-9k-gyq"/>
+                            <constraint firstItem="HSg-vQ-rGc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zmx-RI-EJv"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-750" y="-595.3125"/>
+        </scene>
+        <!--KarttaVC-->
+        <scene sceneID="D4N-iU-uMe">
+            <objects>
+                <viewController id="Qf7-d6-eFG" customClass="KarttaVC" customModule="KirjaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IbK-oc-MzD"/>
+                        <viewControllerLayoutGuide type="bottom" id="7z1-Ae-WF8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7f4-pq-PLo">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="karttakuva" translatesAutoresizingMaskIntoConstraints="NO" id="ypS-QY-37M">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzO-XK-8vD">
+                                <rect key="frame" x="20" y="20" width="85" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.55816280903173876" blue="0.82338747235851384" alpha="0.67490671641791045" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="Izv-ve-CGZ"/>
+                                    <constraint firstAttribute="height" constant="50" id="m9G-IM-ROy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Alkuun">
+                                    <color key="titleColor" red="1" green="0.98514202399999995" blue="0.31661369160000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alkuunPressed:" destination="Qf7-d6-eFG" eventType="touchUpInside" id="aaD-uj-TZy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXd-AT-JbZ">
+                                <rect key="frame" x="487" y="805" width="74" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="01x-6N-DdV"/>
+                                    <constraint firstAttribute="width" constant="74" id="mwn-lH-3TE"/>
+                                </constraints>
+                                <state key="normal" image="pulma1Btn"/>
+                                <connections>
+                                    <segue destination="WMk-X9-k9I" kind="show" id="1vj-8F-BXO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqh-di-a1Y">
+                                <rect key="frame" x="180" y="792" width="74" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="46L-Tu-Ids"/>
+                                    <constraint firstAttribute="height" constant="55" id="xGd-cn-jUt"/>
+                                </constraints>
+                                <state key="normal" image="pulma2Btn"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbf-dG-PJc">
+                                <rect key="frame" x="222" y="710" width="74" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="3yg-Ey-ixz"/>
+                                    <constraint firstAttribute="width" constant="74" id="koy-Al-lRq"/>
+                                </constraints>
+                                <state key="normal" image="pulma3Btn"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7z1-Ae-WF8" firstAttribute="top" secondItem="lqh-di-a1Y" secondAttribute="bottom" constant="177" id="0rh-2h-Mku"/>
+                            <constraint firstItem="DzO-XK-8vD" firstAttribute="leading" secondItem="7f4-pq-PLo" secondAttribute="leadingMargin" id="70L-CB-Jvv"/>
+                            <constraint firstItem="lqh-di-a1Y" firstAttribute="leading" secondItem="7f4-pq-PLo" secondAttribute="leadingMargin" constant="160" id="IWs-rw-tqX"/>
+                            <constraint firstItem="7z1-Ae-WF8" firstAttribute="top" secondItem="uXd-AT-JbZ" secondAttribute="bottom" constant="164" id="IiO-zU-Gdn"/>
+                            <constraint firstItem="DzO-XK-8vD" firstAttribute="top" secondItem="IbK-oc-MzD" secondAttribute="bottom" id="Rdi-tt-CIo"/>
+                            <constraint firstItem="7z1-Ae-WF8" firstAttribute="top" secondItem="ypS-QY-37M" secondAttribute="bottom" id="UC7-1h-4e7"/>
+                            <constraint firstItem="ypS-QY-37M" firstAttribute="leading" secondItem="7f4-pq-PLo" secondAttribute="leading" id="Uw5-8u-3FW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uXd-AT-JbZ" secondAttribute="trailing" constant="187" id="W0R-6y-PTf"/>
+                            <constraint firstAttribute="trailing" secondItem="ypS-QY-37M" secondAttribute="trailing" id="eTU-D6-KZ6"/>
+                            <constraint firstItem="ypS-QY-37M" firstAttribute="top" secondItem="7f4-pq-PLo" secondAttribute="top" id="i7J-ah-bsM"/>
+                            <constraint firstItem="wbf-dG-PJc" firstAttribute="leading" secondItem="7f4-pq-PLo" secondAttribute="leadingMargin" constant="202" id="jsI-7O-xwh"/>
+                            <constraint firstItem="lqh-di-a1Y" firstAttribute="top" secondItem="wbf-dG-PJc" secondAttribute="bottom" constant="27" id="md2-Rc-q7O"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1nM-zd-wE6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-44.53125" y="-595.3125"/>
+        </scene>
+        <!--InfoVC-->
+        <scene sceneID="wVl-yL-UU5">
+            <objects>
+                <viewController id="7sw-Jb-2pT" customClass="InfoVC" customModule="KirjaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rgt-A8-UNo"/>
+                        <viewControllerLayoutGuide type="bottom" id="bT1-8w-jOd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DDC-iM-k9g">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lumivuoretkuva" translatesAutoresizingMaskIntoConstraints="NO" id="axl-dS-Q3Q">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzC-ul-lEo">
+                                <rect key="frame" x="20" y="38" width="67" height="37"/>
+                                <color key="backgroundColor" red="1" green="0.68773057500000001" blue="0.24906547339999999" alpha="0.716796875" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="9f7-VD-SeA"/>
+                                    <constraint firstAttribute="width" constant="67" id="NWs-Mc-Qkg"/>
+                                    <constraint firstAttribute="height" constant="37" id="og5-i6-WL7"/>
+                                    <constraint firstAttribute="width" constant="67" id="xdy-Ep-AhD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Alkuun">
+                                    <color key="titleColor" red="1" green="0.98514202399999995" blue="0.31661369160000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="NWs-Mc-Qkg"/>
+                                        <exclude reference="og5-i6-WL7"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="paluuPressed:" destination="7sw-Jb-2pT" eventType="touchUpInside" id="hm2-XN-KCg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="58" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5D5-tw-MKS">
+                                <rect key="frame" x="158" y="329.5" width="452" height="365"/>
+                                <color key="backgroundColor" red="0.66764405874434862" green="0.91399923655190551" blue="1" alpha="0.49095775462962965" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="452" id="v7j-2T-RdA"/>
+                                    <constraint firstAttribute="height" constant="365" id="yPn-zI-YbN"/>
+                                </constraints>
+                                <string key="text">Tervetuloa seikkailemaan Myttymäen jännittäviin maisemiin. Tarinassa ilmestyvät pulmat ratkot tällä applikaatiolla!
+
+Karttaruudulla pääset valitsemaan pulman.  Pulmat ovat numeroitu, ja uusi pulma ilmestyy kartalle kun saat edellisen ratkottua.
+
+Kirjaa lukemalla saat vihjeitä pulmien ratkomiseen, joten seuraa kirjan tapahtumia huolellisesti. Kirja kertoo koska saat avata seuraavan pulman.
+
+Ruudun alareunassa on vihje -nappula jota painamalla saat neuvoja tarvittaessa.
+
+Pidä hauskaa Myttymäessä!</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.62293012489999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ohjeet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fR-Pb-lDb">
+                                <rect key="frame" x="240" y="148" width="289" height="138"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="138" id="5Qu-6Q-uKL"/>
+                                    <constraint firstAttribute="width" constant="289" id="TSN-mu-Y8Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
+                                <color key="textColor" red="1" green="0.62293012489999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="5fR-Pb-lDb" secondAttribute="trailing" constant="219" id="44j-ek-Znk"/>
+                            <constraint firstItem="5D5-tw-MKS" firstAttribute="centerX" secondItem="DDC-iM-k9g" secondAttribute="centerX" id="Dc4-W4-IIh"/>
+                            <constraint firstItem="uzC-ul-lEo" firstAttribute="leading" secondItem="DDC-iM-k9g" secondAttribute="leadingMargin" id="GJf-uY-4uR"/>
+                            <constraint firstItem="5fR-Pb-lDb" firstAttribute="top" secondItem="rgt-A8-UNo" secondAttribute="bottom" constant="128" id="KQJ-qi-ooY"/>
+                            <constraint firstItem="5fR-Pb-lDb" firstAttribute="leading" secondItem="DDC-iM-k9g" secondAttribute="leadingMargin" constant="220" id="ORF-f0-PGE"/>
+                            <constraint firstItem="5D5-tw-MKS" firstAttribute="centerY" secondItem="DDC-iM-k9g" secondAttribute="centerY" id="QVd-78-ju8"/>
+                            <constraint firstItem="uzC-ul-lEo" firstAttribute="top" secondItem="rgt-A8-UNo" secondAttribute="bottom" constant="18" id="Wqz-LK-uTl"/>
+                            <constraint firstItem="bT1-8w-jOd" firstAttribute="top" secondItem="axl-dS-Q3Q" secondAttribute="bottom" id="f7B-aM-oOi"/>
+                            <constraint firstItem="uzC-ul-lEo" firstAttribute="top" secondItem="rgt-A8-UNo" secondAttribute="bottom" id="isd-52-0o4"/>
+                            <constraint firstItem="axl-dS-Q3Q" firstAttribute="leading" secondItem="DDC-iM-k9g" secondAttribute="leading" id="mje-ec-TTq"/>
+                            <constraint firstItem="uzC-ul-lEo" firstAttribute="leading" secondItem="DDC-iM-k9g" secondAttribute="leadingMargin" id="nhd-mO-ccw"/>
+                            <constraint firstAttribute="trailing" secondItem="axl-dS-Q3Q" secondAttribute="trailing" id="xTB-SO-TUT"/>
+                            <constraint firstItem="axl-dS-Q3Q" firstAttribute="top" secondItem="DDC-iM-k9g" secondAttribute="top" id="znz-bj-kvC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="isd-52-0o4"/>
+                                <exclude reference="nhd-mO-ccw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GjC-7F-Jwz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-818.75" y="201.5625"/>
+        </scene>
+        <!--Pulma1VC-->
+        <scene sceneID="ig3-Ye-tGs">
+            <objects>
+                <viewController id="WMk-X9-k9I" customClass="Pulma1VC" customModule="KirjaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ybz-Sy-IQU"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Kk-CP-2L7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aLi-ze-Y5H">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1Tausta" translatesAutoresizingMaskIntoConstraints="NO" id="eV4-m5-Hwj">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYo-hE-x6W">
+                                <rect key="frame" x="20" y="20" width="87" height="43"/>
+                                <color key="backgroundColor" red="1" green="0.68773057500000001" blue="0.24906547339999999" alpha="0.716796875" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="QhR-st-Zn2"/>
+                                    <constraint firstAttribute="width" constant="87" id="zIE-ZP-zLH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Takaisin">
+                                    <color key="titleColor" red="1" green="0.98514202399999995" blue="0.31661369160000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="takaisinPressed:" destination="WMk-X9-k9I" eventType="touchUpInside" id="bCg-n0-1wP"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_O" translatesAutoresizingMaskIntoConstraints="NO" id="KzB-gi-PzD">
+                                <rect key="frame" x="182" y="158" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Uc7-gu-2sE"/>
+                                    <constraint firstAttribute="width" constant="70" id="ulF-3h-tSx"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="986-II-v1X">
+                                <rect key="frame" x="273" y="158" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="cjT-Gq-jtc"/>
+                                    <constraint firstAttribute="width" constant="70" id="f0D-9K-Tv5"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="zi3-r8-Bpl">
+                                <rect key="frame" x="366" y="158" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="3EK-Y9-Dae"/>
+                                    <constraint firstAttribute="height" constant="70" id="OZ4-nr-9WQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="ZhN-ul-Epg">
+                                <rect key="frame" x="459" y="158" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="JKM-WC-yB9"/>
+                                    <constraint firstAttribute="height" constant="70" id="vT1-Av-e6p"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="sUE-aw-4cT">
+                                <rect key="frame" x="74" y="261" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="F21-G7-DW7"/>
+                                    <constraint firstAttribute="width" constant="70" id="dFI-wU-dbs"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="M4h-QN-ZhP">
+                                <rect key="frame" x="152" y="261" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="jNb-NX-7xC"/>
+                                    <constraint firstAttribute="width" constant="70" id="thS-gu-ZPy"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="vDD-Mr-OFs">
+                                <rect key="frame" x="308" y="261" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="GPq-4I-yJU"/>
+                                    <constraint firstAttribute="width" constant="70" id="PcL-kg-A52"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_A" translatesAutoresizingMaskIntoConstraints="NO" id="dYI-yS-Rc3">
+                                <rect key="frame" x="386" y="261" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="CLZ-sH-h6l"/>
+                                    <constraint firstAttribute="height" constant="70" id="Ird-Dz-YwW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_A" translatesAutoresizingMaskIntoConstraints="NO" id="MG6-pA-NFg">
+                                <rect key="frame" x="620" y="261" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="4Yo-EP-NVA"/>
+                                    <constraint firstAttribute="width" constant="70" id="9dc-Q3-bgq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="bNI-Rl-inU" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                <rect key="frame" x="74" y="668" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="EeE-If-MML"/>
+                                    <constraint firstAttribute="width" constant="70" id="lok-2j-Xjk"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="5GT-c3-CnD" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                <rect key="frame" x="308" y="802" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Hae-Zx-hZT"/>
+                                    <constraint firstAttribute="width" constant="70" id="wDa-rT-Lil"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_N" translatesAutoresizingMaskIntoConstraints="NO" id="foC-FL-mwP" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                <rect key="frame" x="191" y="668" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="LPb-2b-aoB"/>
+                                    <constraint firstAttribute="height" constant="70" id="l9K-vD-DxT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_S" translatesAutoresizingMaskIntoConstraints="NO" id="x76-h0-FqD" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                <rect key="frame" x="308" y="668" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="jga-vw-uir"/>
+                                    <constraint firstAttribute="height" constant="70" id="vod-gg-kiB"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_I" translatesAutoresizingMaskIntoConstraints="NO" id="hdX-gv-MMA" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                <rect key="frame" x="535" y="668" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="2dq-xw-OLU"/>
+                                    <constraint firstAttribute="width" constant="70" id="SMX-de-cRO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_E" translatesAutoresizingMaskIntoConstraints="NO" id="XUF-ni-gEu" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                <rect key="frame" x="74" y="802" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="IBS-Fw-EfA"/>
+                                    <constraint firstAttribute="width" constant="70" id="IS9-Sp-rJw"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="t96-Ke-8L3" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                <rect key="frame" x="191" y="802" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Q2c-ca-avP"/>
+                                    <constraint firstAttribute="height" constant="70" id="Znm-jz-zB5"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="Djw-Rr-zGt">
+                                <rect key="frame" x="542" y="261" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Sqj-Vd-XkP"/>
+                                    <constraint firstAttribute="width" constant="70" id="drF-02-bZk"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="to4-0C-qhy">
+                                <rect key="frame" x="464" y="261" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="AYL-yQ-2Bs"/>
+                                    <constraint firstAttribute="height" constant="70" id="BgY-iU-fyF"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_kirjaimenpaikka" translatesAutoresizingMaskIntoConstraints="NO" id="xwP-9Y-0uf">
+                                <rect key="frame" x="230" y="261" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="5D7-pf-otY"/>
+                                    <constraint firstAttribute="height" constant="70" id="Xev-qB-4VA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="uMS-oc-jQa" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                <rect key="frame" x="423" y="668" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="4LT-Se-NoP"/>
+                                    <constraint firstAttribute="height" constant="70" id="XUs-CZ-K2h"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulma1_L" translatesAutoresizingMaskIntoConstraints="NO" id="CmB-VO-qtP" customClass="dragImg" customModule="KirjaApp" customModuleProvider="target">
+                                <rect key="frame" x="423" y="802" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="UTY-5a-cw2"/>
+                                    <constraint firstAttribute="height" constant="70" id="n9p-5y-NXw"/>
+                                </constraints>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8g-PX-7XY">
+                                <rect key="frame" x="225" y="449" width="319" height="127"/>
+                                <color key="backgroundColor" red="1" green="0.68773057500000001" blue="0.24906547339999999" alpha="0.716796875" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="319" id="1Ps-Ya-lcK"/>
+                                    <constraint firstAttribute="height" constant="127" id="ft6-hP-JCI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="33"/>
+                                <state key="normal" title="Seuraava tehtävä -&gt;">
+                                    <color key="titleColor" red="1" green="0.98514202399999995" blue="0.31661369160000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="puzzle2Btn:" destination="WMk-X9-k9I" eventType="touchUpInside" id="nhi-XA-MBf"/>
+                                    <segue destination="Qf7-d6-eFG" kind="show" id="HX7-Qi-br8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="x76-h0-FqD" firstAttribute="top" secondItem="vDD-Mr-OFs" secondAttribute="bottom" constant="337" id="1BD-E5-nWe"/>
+                            <constraint firstItem="bNI-Rl-inU" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leadingMargin" constant="54" id="5ba-jO-bJu"/>
+                            <constraint firstItem="dYI-yS-Rc3" firstAttribute="top" secondItem="zi3-r8-Bpl" secondAttribute="bottom" constant="33" id="8My-2j-w3S"/>
+                            <constraint firstItem="bNI-Rl-inU" firstAttribute="top" secondItem="sUE-aw-4cT" secondAttribute="bottom" constant="337" id="9JB-Kh-phG"/>
+                            <constraint firstItem="foC-FL-mwP" firstAttribute="leading" secondItem="bNI-Rl-inU" secondAttribute="trailing" constant="47" id="9Ts-1u-2PD"/>
+                            <constraint firstItem="foC-FL-mwP" firstAttribute="top" secondItem="xwP-9Y-0uf" secondAttribute="bottom" constant="337" id="Abk-7T-kpZ"/>
+                            <constraint firstItem="zi3-r8-Bpl" firstAttribute="leading" secondItem="986-II-v1X" secondAttribute="trailing" constant="23" id="Cg4-bT-eTk"/>
+                            <constraint firstItem="uMS-oc-jQa" firstAttribute="leading" secondItem="x76-h0-FqD" secondAttribute="trailing" constant="45" id="DTV-EI-JmS"/>
+                            <constraint firstItem="M4h-QN-ZhP" firstAttribute="leading" secondItem="sUE-aw-4cT" secondAttribute="trailing" constant="8" id="DX1-EM-gMZ"/>
+                            <constraint firstItem="hdX-gv-MMA" firstAttribute="leading" secondItem="uMS-oc-jQa" secondAttribute="trailing" constant="42" id="Dyz-by-ctX"/>
+                            <constraint firstItem="Djw-Rr-zGt" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="241" id="E95-Be-ZNL"/>
+                            <constraint firstItem="hdX-gv-MMA" firstAttribute="leading" secondItem="uMS-oc-jQa" secondAttribute="trailing" constant="42" id="FFK-hr-udS"/>
+                            <constraint firstItem="to4-0C-qhy" firstAttribute="leading" secondItem="dYI-yS-Rc3" secondAttribute="trailing" constant="8" id="G0H-vc-Q4s"/>
+                            <constraint firstItem="vDD-Mr-OFs" firstAttribute="top" secondItem="zi3-r8-Bpl" secondAttribute="bottom" constant="33" id="HVs-qQ-JsG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MG6-pA-NFg" secondAttribute="trailing" constant="58" id="HxO-WH-loZ"/>
+                            <constraint firstItem="uMS-oc-jQa" firstAttribute="top" secondItem="to4-0C-qhy" secondAttribute="bottom" constant="337" id="JIZ-0i-5Ds"/>
+                            <constraint firstItem="zi3-r8-Bpl" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="138" id="Kii-A9-BzM"/>
+                            <constraint firstItem="5GT-c3-CnD" firstAttribute="top" secondItem="x76-h0-FqD" secondAttribute="bottom" constant="64" id="LDV-iH-Jy9"/>
+                            <constraint firstItem="E8g-PX-7XY" firstAttribute="centerY" secondItem="aLi-ze-Y5H" secondAttribute="centerY" id="LSq-33-OzA"/>
+                            <constraint firstItem="UYo-hE-x6W" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" id="LlI-JE-Ktj"/>
+                            <constraint firstItem="x76-h0-FqD" firstAttribute="leading" secondItem="foC-FL-mwP" secondAttribute="trailing" constant="47" id="Ogo-8n-ghF"/>
+                            <constraint firstItem="CmB-VO-qtP" firstAttribute="leading" secondItem="5GT-c3-CnD" secondAttribute="trailing" constant="45" id="Pl9-1z-rrs"/>
+                            <constraint firstItem="UYo-hE-x6W" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leading" constant="20" id="S39-QO-hbe"/>
+                            <constraint firstItem="Djw-Rr-zGt" firstAttribute="leading" secondItem="to4-0C-qhy" secondAttribute="trailing" constant="8" id="SXL-et-xs7"/>
+                            <constraint firstItem="ZhN-ul-Epg" firstAttribute="leading" secondItem="zi3-r8-Bpl" secondAttribute="trailing" constant="23" id="SkR-J4-Vk1"/>
+                            <constraint firstItem="986-II-v1X" firstAttribute="leading" secondItem="KzB-gi-PzD" secondAttribute="trailing" constant="21" id="Tii-Hj-9nR"/>
+                            <constraint firstItem="XUF-ni-gEu" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leadingMargin" constant="54" id="UR6-sK-I2U"/>
+                            <constraint firstItem="KzB-gi-PzD" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leadingMargin" constant="162" id="WZo-7w-aPY"/>
+                            <constraint firstItem="M4h-QN-ZhP" firstAttribute="top" secondItem="KzB-gi-PzD" secondAttribute="bottom" constant="33" id="XO1-dN-6VY"/>
+                            <constraint firstItem="sUE-aw-4cT" firstAttribute="top" secondItem="UYo-hE-x6W" secondAttribute="bottom" constant="198" id="YuE-GX-rYH"/>
+                            <constraint firstItem="XUF-ni-gEu" firstAttribute="top" secondItem="bNI-Rl-inU" secondAttribute="bottom" constant="64" id="a2y-53-Os9"/>
+                            <constraint firstItem="xwP-9Y-0uf" firstAttribute="leading" secondItem="M4h-QN-ZhP" secondAttribute="trailing" constant="8" id="aBj-6d-G12"/>
+                            <constraint firstItem="ZhN-ul-Epg" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="138" id="cNR-z1-JwH"/>
+                            <constraint firstItem="dYI-yS-Rc3" firstAttribute="leading" secondItem="vDD-Mr-OFs" secondAttribute="trailing" constant="8" id="fCG-MB-NND"/>
+                            <constraint firstItem="vDD-Mr-OFs" firstAttribute="leading" secondItem="xwP-9Y-0uf" secondAttribute="trailing" constant="8" id="heG-7W-rch"/>
+                            <constraint firstItem="hdX-gv-MMA" firstAttribute="top" secondItem="Djw-Rr-zGt" secondAttribute="bottom" constant="337" id="hm4-VP-rCH"/>
+                            <constraint firstItem="t96-Ke-8L3" firstAttribute="leading" secondItem="XUF-ni-gEu" secondAttribute="trailing" constant="47" id="iej-cQ-bPC"/>
+                            <constraint firstItem="MG6-pA-NFg" firstAttribute="leading" secondItem="Djw-Rr-zGt" secondAttribute="trailing" constant="8" id="ipK-P3-sbm"/>
+                            <constraint firstItem="xwP-9Y-0uf" firstAttribute="leading" secondItem="M4h-QN-ZhP" secondAttribute="trailing" constant="8" id="jAR-wy-eeF"/>
+                            <constraint firstItem="xwP-9Y-0uf" firstAttribute="top" secondItem="986-II-v1X" secondAttribute="bottom" constant="33" id="jg1-W4-Vdi"/>
+                            <constraint firstItem="eV4-m5-Hwj" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leading" id="ktv-mh-oJr"/>
+                            <constraint firstAttribute="trailing" secondItem="eV4-m5-Hwj" secondAttribute="trailing" id="lXB-cO-uul"/>
+                            <constraint firstItem="3Kk-CP-2L7" firstAttribute="top" secondItem="eV4-m5-Hwj" secondAttribute="bottom" id="mse-Cz-4pt"/>
+                            <constraint firstItem="to4-0C-qhy" firstAttribute="top" secondItem="ZhN-ul-Epg" secondAttribute="bottom" constant="33" id="nzc-cC-JO4"/>
+                            <constraint firstItem="CmB-VO-qtP" firstAttribute="top" secondItem="uMS-oc-jQa" secondAttribute="bottom" constant="64" id="o3k-em-dtF"/>
+                            <constraint firstItem="t96-Ke-8L3" firstAttribute="top" secondItem="foC-FL-mwP" secondAttribute="bottom" constant="64" id="oqv-Hh-Y3w"/>
+                            <constraint firstItem="sUE-aw-4cT" firstAttribute="leading" secondItem="aLi-ze-Y5H" secondAttribute="leadingMargin" constant="54" id="qky-Yh-K3Y"/>
+                            <constraint firstItem="MG6-pA-NFg" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="241" id="tHh-Wz-d4O"/>
+                            <constraint firstItem="5GT-c3-CnD" firstAttribute="leading" secondItem="t96-Ke-8L3" secondAttribute="trailing" constant="47" id="tJz-DJ-H6c"/>
+                            <constraint firstItem="E8g-PX-7XY" firstAttribute="centerX" secondItem="aLi-ze-Y5H" secondAttribute="centerX" id="toz-hL-SyD"/>
+                            <constraint firstItem="986-II-v1X" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="138" id="v6b-ia-e20"/>
+                            <constraint firstItem="KzB-gi-PzD" firstAttribute="top" secondItem="Ybz-Sy-IQU" secondAttribute="bottom" constant="138" id="zqf-us-IjV"/>
+                            <constraint firstItem="eV4-m5-Hwj" firstAttribute="top" secondItem="aLi-ze-Y5H" secondAttribute="top" id="ztu-u9-6No"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="letterA1Target" destination="dYI-yS-Rc3" id="AV7-2r-RKJ"/>
+                        <outlet property="letterA2Target" destination="MG6-pA-NFg" id="Fvj-xP-gA7"/>
+                        <outlet property="letterE" destination="XUF-ni-gEu" id="jxS-4v-dUc"/>
+                        <outlet property="letterETarget" destination="zi3-r8-Bpl" id="5gV-ot-gSy"/>
+                        <outlet property="letterI" destination="hdX-gv-MMA" id="WxR-zh-ZCe"/>
+                        <outlet property="letterITarget" destination="M4h-QN-ZhP" id="9LW-43-6Vn"/>
+                        <outlet property="letterL" destination="uMS-oc-jQa" id="ICN-ex-bEl"/>
+                        <outlet property="letterL1Target" destination="xwP-9Y-0uf" id="X4t-HE-a7M"/>
+                        <outlet property="letterL2" destination="uMS-oc-jQa" id="5NY-4b-auQ"/>
+                        <outlet property="letterL2Target" destination="vDD-Mr-OFs" id="PZ0-nk-1XT"/>
+                        <outlet property="letterL3" destination="t96-Ke-8L3" id="mZC-P1-z9O"/>
+                        <outlet property="letterL3Target" destination="to4-0C-qhy" id="iM1-mY-Qhu"/>
+                        <outlet property="letterL4" destination="5GT-c3-CnD" id="4GW-mq-I2M"/>
+                        <outlet property="letterL4Target" destination="Djw-Rr-zGt" id="Y7c-ib-JFl"/>
+                        <outlet property="letterL5" destination="CmB-VO-qtP" id="7Hy-Gy-SYd"/>
+                        <outlet property="letterLTarget" destination="986-II-v1X" id="Xku-R2-tgD"/>
+                        <outlet property="letterN" destination="foC-FL-mwP" id="SuG-kv-ZkN"/>
+                        <outlet property="letterNTarget" destination="ZhN-ul-Epg" id="YAD-MH-5U6"/>
+                        <outlet property="letterOTarget" destination="KzB-gi-PzD" id="1fo-uF-cXC"/>
+                        <outlet property="letterS" destination="x76-h0-FqD" id="S1K-04-zB5"/>
+                        <outlet property="letterSTarget" destination="sUE-aw-4cT" id="CH6-Z7-HuN"/>
+                        <outlet property="puzzle2BtnOutlet" destination="E8g-PX-7XY" id="uVe-r8-mPN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HKr-CX-ZjW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-30.46875" y="203.90625"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Alkunäyttökuva" width="2048" height="1200"/>
+        <image name="Lumivuoretkuva" width="2048" height="1200"/>
+        <image name="MyttyLogo" width="870" height="305"/>
+        <image name="aloitaBtn" width="362" height="188"/>
+        <image name="karttakuva" width="830" height="934"/>
+        <image name="ohjeetBtn" width="362" height="188"/>
+        <image name="pulma1Btn" width="319" height="323"/>
+        <image name="pulma1Tausta" width="973" height="1280"/>
+        <image name="pulma1_A" width="67" height="67"/>
+        <image name="pulma1_E" width="67" height="67"/>
+        <image name="pulma1_I" width="67" height="67"/>
+        <image name="pulma1_L" width="67" height="67"/>
+        <image name="pulma1_N" width="67" height="67"/>
+        <image name="pulma1_O" width="67" height="67"/>
+        <image name="pulma1_S" width="67" height="67"/>
+        <image name="pulma1_kirjaimenpaikka" width="67" height="67"/>
+        <image name="pulma2Btn" width="319" height="323"/>
+        <image name="pulma3Btn" width="319" height="323"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="IUr-sA-lkF"/>
+    </inferredMetricsTieBreakers>
 </document>

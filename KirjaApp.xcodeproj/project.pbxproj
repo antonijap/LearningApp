@@ -12,6 +12,16 @@
 		1D0D95691DA65BBF00E339E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0D95671DA65BBF00E339E5 /* Main.storyboard */; };
 		1D0D956B1DA65BBF00E339E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0D956A1DA65BBF00E339E5 /* Assets.xcassets */; };
 		1D0D956E1DA65BBF00E339E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0D956C1DA65BBF00E339E5 /* LaunchScreen.storyboard */; };
+		1D0D95761DA6605500E339E5 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D95751DA6605500E339E5 /* InfoVC.swift */; };
+		1D0D95781DA6684400E339E5 /* KarttaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D95771DA6684400E339E5 /* KarttaVC.swift */; };
+		1D585F3B1DC21106005156FB /* dragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D585F3A1DC21106005156FB /* dragImg.swift */; };
+		1DAB268F1DE2FBF9000183E0 /* Pulma2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAB268E1DE2FBF9000183E0 /* Pulma2VC.swift */; };
+		1DB0DABF1DAB999E00E9200E /* Pulma1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0DABE1DAB999E00E9200E /* Pulma1VC.swift */; };
+		1DD5DF391DDDB635001FD1D8 /* oikein.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF321DDDB635001FD1D8 /* oikein.wav */; };
+		1DD5DF3B1DDDB635001FD1D8 /* Glock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF341DDDB635001FD1D8 /* Glock.wav */; };
+		1DD5DF3C1DDDB635001FD1D8 /* vaarin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF351DDDB635001FD1D8 /* vaarin.wav */; };
+		1DD5DF3E1DDDB635001FD1D8 /* takaisin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF371DDDB635001FD1D8 /* takaisin.wav */; };
+		1DD5DF3F1DDDB635001FD1D8 /* nappula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF381DDDB635001FD1D8 /* nappula.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		1D0D956A1DA65BBF00E339E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0D956D1DA65BBF00E339E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0D956F1DA65BBF00E339E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0D95751DA6605500E339E5 /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		1D0D95771DA6684400E339E5 /* KarttaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KarttaVC.swift; sourceTree = "<group>"; };
+		1D585F3A1DC21106005156FB /* dragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragImg.swift; sourceTree = "<group>"; };
+		1DAB268E1DE2FBF9000183E0 /* Pulma2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulma2VC.swift; sourceTree = "<group>"; };
+		1DB0DABE1DAB999E00E9200E /* Pulma1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulma1VC.swift; sourceTree = "<group>"; };
+		1DD5DF321DDDB635001FD1D8 /* oikein.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oikein.wav; sourceTree = "<group>"; };
+		1DD5DF341DDDB635001FD1D8 /* Glock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glock.wav; sourceTree = "<group>"; };
+		1DD5DF351DDDB635001FD1D8 /* vaarin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vaarin.wav; sourceTree = "<group>"; };
+		1DD5DF371DDDB635001FD1D8 /* takaisin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = takaisin.wav; sourceTree = "<group>"; };
+		1DD5DF381DDDB635001FD1D8 /* nappula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nappula.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +76,30 @@
 			children = (
 				1D0D95631DA65BBF00E339E5 /* AppDelegate.swift */,
 				1D0D95651DA65BBF00E339E5 /* ViewController.swift */,
+				1D0D95771DA6684400E339E5 /* KarttaVC.swift */,
+				1D0D95751DA6605500E339E5 /* InfoVC.swift */,
+				1DB0DABE1DAB999E00E9200E /* Pulma1VC.swift */,
+				1DAB268E1DE2FBF9000183E0 /* Pulma2VC.swift */,
 				1D0D95671DA65BBF00E339E5 /* Main.storyboard */,
 				1D0D956A1DA65BBF00E339E5 /* Assets.xcassets */,
 				1D0D956C1DA65BBF00E339E5 /* LaunchScreen.storyboard */,
 				1D0D956F1DA65BBF00E339E5 /* Info.plist */,
+				1D585F3A1DC21106005156FB /* dragImg.swift */,
+				1DD5DF311DDDB61A001FD1D8 /* Sounds */,
 			);
 			path = KirjaApp;
+			sourceTree = "<group>";
+		};
+		1DD5DF311DDDB61A001FD1D8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1DD5DF321DDDB635001FD1D8 /* oikein.wav */,
+				1DD5DF341DDDB635001FD1D8 /* Glock.wav */,
+				1DD5DF351DDDB635001FD1D8 /* vaarin.wav */,
+				1DD5DF371DDDB635001FD1D8 /* takaisin.wav */,
+				1DD5DF381DDDB635001FD1D8 /* nappula.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,12 +129,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Ronja Haarte";
 				TargetAttributes = {
 					1D0D955F1DA65BBE00E339E5 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = KQ75W334YU;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -124,8 +163,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0D956E1DA65BBF00E339E5 /* LaunchScreen.storyboard in Resources */,
+				1DD5DF3B1DDDB635001FD1D8 /* Glock.wav in Resources */,
 				1D0D956B1DA65BBF00E339E5 /* Assets.xcassets in Resources */,
+				1DD5DF3F1DDDB635001FD1D8 /* nappula.wav in Resources */,
 				1D0D95691DA65BBF00E339E5 /* Main.storyboard in Resources */,
+				1DD5DF3E1DDDB635001FD1D8 /* takaisin.wav in Resources */,
+				1DD5DF391DDDB635001FD1D8 /* oikein.wav in Resources */,
+				1DD5DF3C1DDDB635001FD1D8 /* vaarin.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +181,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0D95661DA65BBF00E339E5 /* ViewController.swift in Sources */,
+				1D0D95781DA6684400E339E5 /* KarttaVC.swift in Sources */,
+				1DAB268F1DE2FBF9000183E0 /* Pulma2VC.swift in Sources */,
+				1D0D95761DA6605500E339E5 /* InfoVC.swift in Sources */,
+				1D585F3B1DC21106005156FB /* dragImg.swift in Sources */,
+				1DB0DABF1DAB999E00E9200E /* Pulma1VC.swift in Sources */,
 				1D0D95641DA65BBF00E339E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,8 +226,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -223,8 +274,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -243,6 +296,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -256,6 +310,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ronjahaarte.KirjaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -267,6 +322,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ronjahaarte.KirjaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -289,6 +345,7 @@
 				1D0D95741DA65BBF00E339E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

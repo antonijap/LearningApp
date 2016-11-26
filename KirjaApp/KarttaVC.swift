@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  KarttaVC.swift
 //  KirjaApp
 //
 //  Created by Ronja Haarte on 6.10.2016.
@@ -7,19 +7,19 @@
 //
 
 import UIKit
+import SpriteKit
 import AVFoundation
-
-class ViewController: UIViewController {
+class KarttaVC: UIViewController {
     
     var sfxOikein: AVAudioPlayer!
     var sfxVaarin: AVAudioPlayer!
     var sfxTakaisin: AVAudioPlayer!
     var sfxNappula: AVAudioPlayer!
-   
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
         do {
             
             try sfxOikein = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "oikein", ofType: "wav")!) as URL)
@@ -36,21 +36,18 @@ class ViewController: UIViewController {
         } catch let err as NSError {
             print(err.debugDescription)
         }
+
     }
-    
-    @IBAction func aloitaBtn(_ sender: Any) {
-        sfxNappula.play()
-    }
-    @IBAction func ohjeetBtn(_ sender: Any) {
-        sfxNappula.play()
-    }
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func alkuunPressed(_ sender: AnyObject) {
+        sfxTakaisin.play()
+        dismiss(animated: true, completion: nil)
+    }
 
 
 }
-
