@@ -11,8 +11,6 @@ import UIKit
 
 class dragImg: UIImageView {
     
- 
-    
     var originalPosition: CGPoint!
     var dropTargets = [UIView]()
     
@@ -42,26 +40,20 @@ class dragImg: UIImageView {
             if dropTargets.count >= 1 {
                 for target in dropTargets {
                     let isOnTarget = target.frame.contains(position)
+                    print(isOnTarget)
                     
                     if isOnTarget {
                         NotificationCenter.default.post(Notification(name: Notification.Name(rawValue:"onTarget")))
-                        // Stay there
+                        // Make it stay there
                         self.center = target.center
                         break
                     } else {
                         self.center = originalPosition
                     }
-                   
                 }
             }
         }
     }
-    
-    func nextLevel() {
-        if dropTargets.count <= 1 {
-            
-        }
-    }
-    
 }
+
 

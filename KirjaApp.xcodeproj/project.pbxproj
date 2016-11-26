@@ -22,6 +22,7 @@
 		1DD5DF3C1DDDB635001FD1D8 /* vaarin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF351DDDB635001FD1D8 /* vaarin.wav */; };
 		1DD5DF3E1DDDB635001FD1D8 /* takaisin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF371DDDB635001FD1D8 /* takaisin.wav */; };
 		1DD5DF3F1DDDB635001FD1D8 /* nappula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF381DDDB635001FD1D8 /* nappula.wav */; };
+		CF0B79251DEA2684008A550D /* Puzzle1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B79241DEA2684008A550D /* Puzzle1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		1DD5DF351DDDB635001FD1D8 /* vaarin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vaarin.wav; sourceTree = "<group>"; };
 		1DD5DF371DDDB635001FD1D8 /* takaisin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = takaisin.wav; sourceTree = "<group>"; };
 		1DD5DF381DDDB635001FD1D8 /* nappula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nappula.wav; sourceTree = "<group>"; };
+		CF0B79241DEA2684008A550D /* Puzzle1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				1D0D956F1DA65BBF00E339E5 /* Info.plist */,
 				1D585F3A1DC21106005156FB /* dragImg.swift */,
 				1DD5DF311DDDB61A001FD1D8 /* Sounds */,
+				CF0B79241DEA2684008A550D /* Puzzle1ViewController.swift */,
 			);
 			path = KirjaApp;
 			sourceTree = "<group>";
@@ -134,7 +137,7 @@
 				TargetAttributes = {
 					1D0D955F1DA65BBE00E339E5 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = KQ75W334YU;
+						DevelopmentTeam = WNU245KFYF;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0B79251DEA2684008A550D /* Puzzle1ViewController.swift in Sources */,
 				1D0D95661DA65BBF00E339E5 /* ViewController.swift in Sources */,
 				1D0D95781DA6684400E339E5 /* KarttaVC.swift in Sources */,
 				1DAB268F1DE2FBF9000183E0 /* Pulma2VC.swift in Sources */,
@@ -306,11 +310,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WNU245KFYF;
 				INFOPLIST_FILE = KirjaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ronjahaarte.KirjaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -318,11 +324,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WNU245KFYF;
 				INFOPLIST_FILE = KirjaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ronjahaarte.KirjaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
