@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Puzzle1ViewController: UIViewController {
+class Pulma1ViewController: UIViewController {
     
     // Targets
     @IBOutlet weak var letterLtarget: UIView!
@@ -23,7 +23,6 @@ class Puzzle1ViewController: UIViewController {
     
     
     // Letters
-    /* S I L L A L L A */
     @IBOutlet weak var letterL: DraggableImage!
     @IBOutlet weak var letterE: DraggableImage!
     @IBOutlet weak var letterN: DraggableImage!
@@ -35,17 +34,17 @@ class Puzzle1ViewController: UIViewController {
     @IBOutlet weak var letterL5: DraggableImage!
     
     
-    // Button
+    // Outlets
     @IBOutlet weak var mapButton: UIButton!
     
+    // Properties
     var counter = 0
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let notificationName = Notification.Name("onTarget")
-        NotificationCenter.default.addObserver(self, selector: #selector(Pulma1VC.onTarget), name: notificationName, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(Pulma1ViewController.onTarget), name: notificationName, object: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -64,13 +63,15 @@ class Puzzle1ViewController: UIViewController {
     
     func onTarget(notif: AnyObject) {
         counter += 1
-        print(counter)
         if counter == 9 {
             mapButton.isHidden = false
         }
+        
+        AudioManager.sharedInstance.play(.vaarin)
     }
     
     @IBAction func goToMap(_ sender: Any) {
+        DefaultsManager.saveProgress(1)
         dismiss(animated: true, completion: nil)
     }
 }

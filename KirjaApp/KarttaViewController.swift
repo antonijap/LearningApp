@@ -7,46 +7,52 @@
 //
 
 import UIKit
-import SpriteKit
-import AVFoundation
 
-class KarttaVC: UIViewController {
+class KarttaViewController: UIViewController {
     
-    var sfxOikein: AVAudioPlayer!
-    var sfxVaarin: AVAudioPlayer!
-    var sfxTakaisin: AVAudioPlayer!
-    var sfxNappula: AVAudioPlayer!
-    
+    // Outlets
+    @IBOutlet weak var levelOne: UIButton!
+    @IBOutlet weak var levelTwo: UIButton!
+    @IBOutlet weak var levelThree: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        do {
-            try sfxOikein = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "oikein", ofType: "wav")!) as URL)
-            try sfxVaarin = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "vaarin", ofType: "wav")!) as URL)
-            try sfxTakaisin = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "takaisin", ofType: "wav")!) as URL)
-            try sfxNappula = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "nappula", ofType: "wav")!) as URL)
-            
-            sfxOikein.prepareToPlay()
-            sfxVaarin.prepareToPlay()
-            sfxTakaisin.prepareToPlay()
-            sfxNappula.prepareToPlay()
-            
-        } catch let err as NSError {
-            print(err.debugDescription)
-        }
-
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Configure Kartta
+        checkprogress(progress: DefaultsManager.getProgress())
+    }
+    
+    func checkprogress(progress: Int) {
+        // Get Progress
+        switch progress {
+        case 0:
+            levelOne.alpha = 1
+            levelTwo.alpha = 0.5
+            levelTwo.isUserInteractionEnabled = false
+            levelThree.alpha = 0.5
+            levelThree.isUserInteractionEnabled = false
+        case 1:
+            levelOne.alpha = 1
+            levelTwo.alpha = 1
+            levelThree.alpha = 0.5
+            levelThree.isUserInteractionEnabled = false
+        case 2:
+            levelOne.alpha = 1
+            levelTwo.alpha = 1
+            levelThree.alpha = 1
+        default:
+            levelOne.alpha = 1
+            levelTwo.alpha = 1
+            levelThree.alpha = 1
+        }
     }
     
     @IBAction func alkuunPressed(_ sender: AnyObject) {
-        sfxTakaisin.play()
+        AudioManager.sharedInstance.play(.takaisin)
         dismiss(animated: true, completion: nil)
     }
-
-
 }

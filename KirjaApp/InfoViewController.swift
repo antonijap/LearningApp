@@ -9,46 +9,14 @@
 import UIKit
 import AVFoundation
 
-class InfoVC: UIViewController {
+class InfoViewController: UIViewController {
     
-    var sfxOikein: AVAudioPlayer!
-    var sfxVaarin: AVAudioPlayer!
-    var sfxTakaisin: AVAudioPlayer!
-    var sfxNappula: AVAudioPlayer!
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        do {
-            
-            try sfxOikein = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "oikein", ofType: "wav")!) as URL)
-            try sfxVaarin = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "vaarin", ofType: "wav")!) as URL)
-            try sfxTakaisin = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "takaisin", ofType: "wav")!) as URL)
-            try sfxNappula = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "nappula", ofType: "wav")!) as URL)
-            
-            
-            sfxOikein.prepareToPlay()
-            sfxVaarin.prepareToPlay()
-            sfxTakaisin.prepareToPlay()
-            sfxNappula.prepareToPlay()
-            
-        } catch let err as NSError {
-            print(err.debugDescription)
-        }
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func paluuPressed(_ sender: AnyObject) {
-        sfxTakaisin.play()
+    @IBAction func goBackPressed(_ sender: Any) {
+        AudioManager.sharedInstance.play(.takaisin)
         dismiss(animated: true, completion: nil)
     }
-
-
-
 }

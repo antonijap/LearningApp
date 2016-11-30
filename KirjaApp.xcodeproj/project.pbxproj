@@ -8,42 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		1D0D95641DA65BBF00E339E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D95631DA65BBF00E339E5 /* AppDelegate.swift */; };
-		1D0D95661DA65BBF00E339E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D95651DA65BBF00E339E5 /* ViewController.swift */; };
+		1D0D95661DA65BBF00E339E5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D95651DA65BBF00E339E5 /* MenuViewController.swift */; };
 		1D0D95691DA65BBF00E339E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0D95671DA65BBF00E339E5 /* Main.storyboard */; };
 		1D0D956B1DA65BBF00E339E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0D956A1DA65BBF00E339E5 /* Assets.xcassets */; };
 		1D0D956E1DA65BBF00E339E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0D956C1DA65BBF00E339E5 /* LaunchScreen.storyboard */; };
-		1D0D95761DA6605500E339E5 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D95751DA6605500E339E5 /* InfoVC.swift */; };
-		1D0D95781DA6684400E339E5 /* KarttaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D95771DA6684400E339E5 /* KarttaVC.swift */; };
-		1D585F3B1DC21106005156FB /* dragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D585F3A1DC21106005156FB /* dragImg.swift */; };
-		1DAB268F1DE2FBF9000183E0 /* Pulma2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAB268E1DE2FBF9000183E0 /* Pulma2VC.swift */; };
-		1DB0DABF1DAB999E00E9200E /* Pulma1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0DABE1DAB999E00E9200E /* Pulma1VC.swift */; };
+		1D0D95761DA6605500E339E5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D95751DA6605500E339E5 /* InfoViewController.swift */; };
+		1D0D95781DA6684400E339E5 /* KarttaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D95771DA6684400E339E5 /* KarttaViewController.swift */; };
+		1D585F3B1DC21106005156FB /* DraggableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D585F3A1DC21106005156FB /* DraggableImage.swift */; };
 		1DD5DF391DDDB635001FD1D8 /* oikein.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF321DDDB635001FD1D8 /* oikein.wav */; };
-		1DD5DF3B1DDDB635001FD1D8 /* Glock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF341DDDB635001FD1D8 /* Glock.wav */; };
+		1DD5DF3B1DDDB635001FD1D8 /* glock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF341DDDB635001FD1D8 /* glock.wav */; };
 		1DD5DF3C1DDDB635001FD1D8 /* vaarin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF351DDDB635001FD1D8 /* vaarin.wav */; };
 		1DD5DF3E1DDDB635001FD1D8 /* takaisin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF371DDDB635001FD1D8 /* takaisin.wav */; };
 		1DD5DF3F1DDDB635001FD1D8 /* nappula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5DF381DDDB635001FD1D8 /* nappula.wav */; };
-		CF0B79251DEA2684008A550D /* Puzzle1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B79241DEA2684008A550D /* Puzzle1ViewController.swift */; };
+		CF0B79251DEA2684008A550D /* Pulma1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B79241DEA2684008A550D /* Pulma1ViewController.swift */; };
+		CF102DD11DEF7D56006375F2 /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF102DD01DEF7D56006375F2 /* DefaultsManager.swift */; };
+		CF601C141DEF61EB003411F6 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF601C131DEF61EB003411F6 /* AudioManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D0D95601DA65BBE00E339E5 /* KirjaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KirjaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0D95631DA65BBF00E339E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D0D95651DA65BBF00E339E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D0D95651DA65BBF00E339E5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		1D0D95681DA65BBF00E339E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D0D956A1DA65BBF00E339E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0D956D1DA65BBF00E339E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0D956F1DA65BBF00E339E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D0D95751DA6605500E339E5 /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
-		1D0D95771DA6684400E339E5 /* KarttaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KarttaVC.swift; sourceTree = "<group>"; };
-		1D585F3A1DC21106005156FB /* dragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragImg.swift; sourceTree = "<group>"; };
-		1DAB268E1DE2FBF9000183E0 /* Pulma2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulma2VC.swift; sourceTree = "<group>"; };
-		1DB0DABE1DAB999E00E9200E /* Pulma1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulma1VC.swift; sourceTree = "<group>"; };
+		1D0D95751DA6605500E339E5 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		1D0D95771DA6684400E339E5 /* KarttaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KarttaViewController.swift; sourceTree = "<group>"; };
+		1D585F3A1DC21106005156FB /* DraggableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImage.swift; sourceTree = "<group>"; };
 		1DD5DF321DDDB635001FD1D8 /* oikein.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oikein.wav; sourceTree = "<group>"; };
-		1DD5DF341DDDB635001FD1D8 /* Glock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glock.wav; sourceTree = "<group>"; };
+		1DD5DF341DDDB635001FD1D8 /* glock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glock.wav; sourceTree = "<group>"; };
 		1DD5DF351DDDB635001FD1D8 /* vaarin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vaarin.wav; sourceTree = "<group>"; };
 		1DD5DF371DDDB635001FD1D8 /* takaisin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = takaisin.wav; sourceTree = "<group>"; };
 		1DD5DF381DDDB635001FD1D8 /* nappula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nappula.wav; sourceTree = "<group>"; };
-		CF0B79241DEA2684008A550D /* Puzzle1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle1ViewController.swift; sourceTree = "<group>"; };
+		CF0B79241DEA2684008A550D /* Pulma1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulma1ViewController.swift; sourceTree = "<group>"; };
+		CF102DD01DEF7D56006375F2 /* DefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		CF601C131DEF61EB003411F6 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,19 +76,12 @@
 		1D0D95621DA65BBF00E339E5 /* KirjaApp */ = {
 			isa = PBXGroup;
 			children = (
-				1D0D95631DA65BBF00E339E5 /* AppDelegate.swift */,
-				1D0D95651DA65BBF00E339E5 /* ViewController.swift */,
-				1D0D95771DA6684400E339E5 /* KarttaVC.swift */,
-				1D0D95751DA6605500E339E5 /* InfoVC.swift */,
-				1DB0DABE1DAB999E00E9200E /* Pulma1VC.swift */,
-				1DAB268E1DE2FBF9000183E0 /* Pulma2VC.swift */,
-				1D0D95671DA65BBF00E339E5 /* Main.storyboard */,
-				1D0D956A1DA65BBF00E339E5 /* Assets.xcassets */,
-				1D0D956C1DA65BBF00E339E5 /* LaunchScreen.storyboard */,
-				1D0D956F1DA65BBF00E339E5 /* Info.plist */,
-				1D585F3A1DC21106005156FB /* dragImg.swift */,
+				CF102DCF1DEF7D42006375F2 /* Model */,
+				CF601C151DEF6D77003411F6 /* Controller */,
+				CF601C171DEF6DA5003411F6 /* View */,
+				CF601C161DEF6D96003411F6 /* Services */,
 				1DD5DF311DDDB61A001FD1D8 /* Sounds */,
-				CF0B79241DEA2684008A550D /* Puzzle1ViewController.swift */,
+				CF601C181DEF7219003411F6 /* Resources */,
 			);
 			path = KirjaApp;
 			sourceTree = "<group>";
@@ -97,12 +90,59 @@
 			isa = PBXGroup;
 			children = (
 				1DD5DF321DDDB635001FD1D8 /* oikein.wav */,
-				1DD5DF341DDDB635001FD1D8 /* Glock.wav */,
+				1DD5DF341DDDB635001FD1D8 /* glock.wav */,
 				1DD5DF351DDDB635001FD1D8 /* vaarin.wav */,
 				1DD5DF371DDDB635001FD1D8 /* takaisin.wav */,
 				1DD5DF381DDDB635001FD1D8 /* nappula.wav */,
 			);
 			name = Sounds;
+			sourceTree = "<group>";
+		};
+		CF102DCF1DEF7D42006375F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF102DD01DEF7D56006375F2 /* DefaultsManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CF601C151DEF6D77003411F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D0D95651DA65BBF00E339E5 /* MenuViewController.swift */,
+				1D0D95771DA6684400E339E5 /* KarttaViewController.swift */,
+				1D0D95751DA6605500E339E5 /* InfoViewController.swift */,
+				CF0B79241DEA2684008A550D /* Pulma1ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CF601C161DEF6D96003411F6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1D585F3A1DC21106005156FB /* DraggableImage.swift */,
+				CF601C131DEF61EB003411F6 /* AudioManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		CF601C171DEF6DA5003411F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D0D95671DA65BBF00E339E5 /* Main.storyboard */,
+				1D0D956C1DA65BBF00E339E5 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CF601C181DEF7219003411F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D0D956F1DA65BBF00E339E5 /* Info.plist */,
+				1D0D95631DA65BBF00E339E5 /* AppDelegate.swift */,
+				1D0D956A1DA65BBF00E339E5 /* Assets.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0D956E1DA65BBF00E339E5 /* LaunchScreen.storyboard in Resources */,
-				1DD5DF3B1DDDB635001FD1D8 /* Glock.wav in Resources */,
+				1DD5DF3B1DDDB635001FD1D8 /* glock.wav in Resources */,
 				1D0D956B1DA65BBF00E339E5 /* Assets.xcassets in Resources */,
 				1DD5DF3F1DDDB635001FD1D8 /* nappula.wav in Resources */,
 				1D0D95691DA65BBF00E339E5 /* Main.storyboard in Resources */,
@@ -183,13 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF0B79251DEA2684008A550D /* Puzzle1ViewController.swift in Sources */,
-				1D0D95661DA65BBF00E339E5 /* ViewController.swift in Sources */,
-				1D0D95781DA6684400E339E5 /* KarttaVC.swift in Sources */,
-				1DAB268F1DE2FBF9000183E0 /* Pulma2VC.swift in Sources */,
-				1D0D95761DA6605500E339E5 /* InfoVC.swift in Sources */,
-				1D585F3B1DC21106005156FB /* dragImg.swift in Sources */,
-				1DB0DABF1DAB999E00E9200E /* Pulma1VC.swift in Sources */,
+				CF0B79251DEA2684008A550D /* Pulma1ViewController.swift in Sources */,
+				1D0D95661DA65BBF00E339E5 /* MenuViewController.swift in Sources */,
+				1D0D95781DA6684400E339E5 /* KarttaViewController.swift in Sources */,
+				1D0D95761DA6605500E339E5 /* InfoViewController.swift in Sources */,
+				1D585F3B1DC21106005156FB /* DraggableImage.swift in Sources */,
+				CF601C141DEF61EB003411F6 /* AudioManager.swift in Sources */,
+				CF102DD11DEF7D56006375F2 /* DefaultsManager.swift in Sources */,
 				1D0D95641DA65BBF00E339E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

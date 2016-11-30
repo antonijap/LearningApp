@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class DefaultsManager {
+    
+    /// Save Progress
+    class func saveProgress(_ value: Int) {
+        UserDefaults.standard.setValue(value, forKey: "save")
+    }
+    
+    /// Get Progress
+    class func getProgress() -> Int {
+        return UserDefaults.standard.value(forKey: "save") as? Int ?? 0
+    }
+}

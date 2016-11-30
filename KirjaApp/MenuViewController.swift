@@ -8,22 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MenuViewController: UIViewController {
     
-//    let audioManager = AudioManager()
+    // Outlets
    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    @IBAction func aloitaBtn(_ sender: Any) {
+    @IBAction func aloitaPressed(_ sender: Any) {
         AudioManager.sharedInstance.play(.glock)
+        performSegue(withIdentifier: "KarttaSegue", sender: self)
     }
     
-    @IBAction func ohjeetBtn(_ sender: Any) {
-        AudioManager.sharedInstance.play(.oikein)
+    @IBAction func ohjeetPressed(_ sender: Any) {
+        AudioManager.sharedInstance.play(.glock)
+        performSegue(withIdentifier: "InfoSegue", sender: self)
     }
-
-
+    
 }
 
