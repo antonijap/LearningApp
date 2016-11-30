@@ -9,24 +9,23 @@
 import UIKit
 import SpriteKit
 import AVFoundation
+
 class KarttaVC: UIViewController {
     
     var sfxOikein: AVAudioPlayer!
     var sfxVaarin: AVAudioPlayer!
     var sfxTakaisin: AVAudioPlayer!
     var sfxNappula: AVAudioPlayer!
-
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         do {
-            
             try sfxOikein = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "oikein", ofType: "wav")!) as URL)
             try sfxVaarin = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "vaarin", ofType: "wav")!) as URL)
             try sfxTakaisin = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "takaisin", ofType: "wav")!) as URL)
             try sfxNappula = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: Bundle.main.path(forResource: "nappula", ofType: "wav")!) as URL)
-            
             
             sfxOikein.prepareToPlay()
             sfxVaarin.prepareToPlay()

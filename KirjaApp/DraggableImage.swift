@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class dragImg: UIImageView {
+class DraggableImage: UIImageView {
     
     var originalPosition: CGPoint!
     var dropTargets = [UIView]()

@@ -24,15 +24,15 @@ class Puzzle1ViewController: UIViewController {
     
     // Letters
     /* S I L L A L L A */
-    @IBOutlet weak var letterL: dragImg!
-    @IBOutlet weak var letterE: dragImg!
-    @IBOutlet weak var letterN: dragImg!
-    @IBOutlet weak var letterS: dragImg!
-    @IBOutlet weak var letterI: dragImg!
-    @IBOutlet weak var letterL2: dragImg!
-    @IBOutlet weak var letterL3: dragImg!
-    @IBOutlet weak var letterL4: dragImg!
-    @IBOutlet weak var letterL5: dragImg!
+    @IBOutlet weak var letterL: DraggableImage!
+    @IBOutlet weak var letterE: DraggableImage!
+    @IBOutlet weak var letterN: DraggableImage!
+    @IBOutlet weak var letterS: DraggableImage!
+    @IBOutlet weak var letterI: DraggableImage!
+    @IBOutlet weak var letterL2: DraggableImage!
+    @IBOutlet weak var letterL3: DraggableImage!
+    @IBOutlet weak var letterL4: DraggableImage!
+    @IBOutlet weak var letterL5: DraggableImage!
     
     
     // Button
