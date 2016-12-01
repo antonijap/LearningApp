@@ -76,11 +76,11 @@
 		1D0D95621DA65BBF00E339E5 /* KirjaApp */ = {
 			isa = PBXGroup;
 			children = (
+				1DD5DF311DDDB61A001FD1D8 /* Sounds */,
 				CF102DCF1DEF7D42006375F2 /* Model */,
 				CF601C151DEF6D77003411F6 /* Controller */,
 				CF601C171DEF6DA5003411F6 /* View */,
 				CF601C161DEF6D96003411F6 /* Services */,
-				1DD5DF311DDDB61A001FD1D8 /* Sounds */,
 				CF601C181DEF7219003411F6 /* Resources */,
 			);
 			path = KirjaApp;

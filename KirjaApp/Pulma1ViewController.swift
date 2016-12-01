@@ -67,7 +67,7 @@ class Pulma1ViewController: UIViewController {
             mapButton.isHidden = false
         }
         
-        AudioManager.sharedInstance.play(.vaarin)
+        AudioManager.sharedInstance.play(.nappula)
     }
     
     @IBAction func goToMap(_ sender: Any) {

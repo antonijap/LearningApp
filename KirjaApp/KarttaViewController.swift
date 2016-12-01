@@ -30,7 +30,7 @@ class KarttaViewController: UIViewController {
         // Get Progress
         switch progress {
         case 0:
-            levelOne.alpha = 1
+            levelOne.alpha = 1 // User Interaction is always enabled on level one
             levelTwo.alpha = 0.5
             levelTwo.isUserInteractionEnabled = false
             levelThree.alpha = 0.5
@@ -38,12 +38,15 @@ class KarttaViewController: UIViewController {
         case 1:
             levelOne.alpha = 1
             levelTwo.alpha = 1
+            levelTwo.isUserInteractionEnabled = true
             levelThree.alpha = 0.5
             levelThree.isUserInteractionEnabled = false
         case 2:
             levelOne.alpha = 1
             levelTwo.alpha = 1
+            levelTwo.isUserInteractionEnabled = true
             levelThree.alpha = 1
+            levelThree.isUserInteractionEnabled = true
         default:
             levelOne.alpha = 1
             levelTwo.alpha = 1
